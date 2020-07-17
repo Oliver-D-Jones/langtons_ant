@@ -1,0 +1,22 @@
+table{
+  border : solid;
+  border-collapse: collapse;
+  width: 88%;
+  height: 90%;
+  margin: auto;
+}
+td{
+  border: solid 1px rgb(29, 103, 172);
+  width: 6px;
+  height: 8px;
+  font-size: 25%;
+  text-align: center;
+  color: white;
+  font: bolder;
+}
+.white{
+  background-color:black;
+}
+.black{
+  background-color: #ff0000;
+}

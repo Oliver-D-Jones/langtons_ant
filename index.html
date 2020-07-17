@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Langton's Ant</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<p>
+					Speed: <b>0</b>&nbsp;<input id='speed' type="range" name="points" min="0" max="10">&nbsp;<b>10</b>
+					&nbsp;&nbsp; Generation: <input id='generation' type='text' value=0 disabled />
+					<input type='button' id='random' value='Randomize' />
+				</p>
+				<h3>Insert 'ant' by clicking on a square below.</h3>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12" id="insert"></div>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
